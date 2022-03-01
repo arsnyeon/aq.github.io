@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>档案信息 - 小豆信誉 - 小程序</title>
+    <link rel="stylesheet" href="../lib/css/re.css">
+    <script src="../lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../lib/css/xx_zheng.css">
+    <script src="../lib/js/art.js"></script>
+    <link rel="stylesheet" href="../lib/css/ty.css">
+    <script src="../lib/js/any_title.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_zf1q6xqesl.css">
+    <meta name="kerwords" content="举报骗子,跑路狗,举报,诈骗,信誉查询">
+    <meta name="description" content="民间组建的查询和举报平台，无论你被骗了多了都可以直接举报，害怕遇到骗子可以到这里查一查">
+</head>
+
+<body>
+
+    <div class="x">
+        <div class="yyd">
+            <div class="top">
+                <div class="top-n">
+                    <img src="../lib/image/tx.png" alt="" class="top-tx">
+                    <p>证据查看</p>
+                </div>
+                <!--  <div class="nyj nyjbl"></div>
+            <div class="nyj nyjbr"></div> -->
+                <div class="top-fgx-w">
+                    <div class="fgx">---------------------------------------------------------------</div>
+                </div>
+
+                <!--    </div> -->
+                <div class="zhengju">
+                    <div class="zhengju_xx">
+                        <p class="title-p">详细情况</p>
+                        <p class="zhengju-p">他骗了我好多钱好多钱好多钱</p>
+                    </div>
+                    <div class="zhengju_xx">
+                        <p class="title-p">证据截图</p>
+                        <div class="zjjt">
+                            <li class="img-li">
+                                <img src="{{$value}}" alt="" class="zj-img">
+                            </li>
+                            <li class="img-li">
+                                <img src="{{$value}}" alt="" class="zj-img">
+                            </li>
+                            <li class="img-li">
+                                <img src="{{$value}}" alt="" class="zj-img">
+                            </li>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="k">
+                    <div class="but-n">
+                        <ul class="k-ul"></ul>
+                        <p class="dibu">档案信息来自微信《 <span class="conpy"></span> 》小程序<br>最终解释权归<span
+                                class="conpy"></span>所有<br>本站信息均由网友投稿 或 官方认证</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <img src="../lib/image/xxf.png" alt="" class="botimg">
+            <p class="bq"
+                style="width: 100%;text-align: center;margin-top: 0px;color: rgb(41, 41, 41);font-size: 14px;position: absolute;bottom: 10px;left: 0;">
+                版权© 2022 <a href="#" style="color: rgb(17, 120, 255);" class="conpy">须豆工作室</a> 所有</p>
+            <p class="bt">有疑问请联系平台客服</p>
+            <img src="../lib/image/3.png" alt="" class="tb">
+        </div>
+        <!-- 加载数据弹窗 -->
+        <div class="jztc">
+            <div class="jztc-n">
+                <img src="../lib/image/lo.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="zj-da-img">
+        <img src="/lib/image/xxbq.png" alt="" class="zj-img-da">
+        <div class="da-img-x">
+            <i class="iconfont icon-cuowu da-img-x-i"></i>
+        </div>
+    </div>
+    <script type="text/html" id="imglisy">
+            {{each}}
+            <li class="img-li">
+                <img src="{{$value}}" alt="" class="zj-img">
+            </li>
+            {{/each}}
+        </script>
+    <script src="../lib/js/xx_zheng.js"></script>
+</body>
+
+</html>

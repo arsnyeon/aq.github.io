@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小豆信誉 - 微信小程序</title>
+    <link rel="stylesheet" href="../lib/css/re.css">
+    <link rel="stylesheet" href="../lib/css/show.css">
+    <script src="../lib/js/jquery.min.js"></script>
+    <script src="../lib/js/art.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_ijlhqcxcov.css">
+    <link rel="stylesheet" href="../lib/css/ty.css">
+    <script src="../lib/js/shu.js"></script>
+    <meta name="kerwords" content="举报骗子,跑路狗,举报,诈骗,信誉查询">
+    <meta name="description" content="民间组建的查询和举报平台，无论你被骗了多了都可以直接举报，害怕遇到骗子可以到这里查一查">
+</head>
+
+<body>
+    <div class="q">
+        <!-- 顶部标题区 -->
+        <!--  <div class="top">
+            <p>民间信誉查询</p>
+        </div> -->
+        <!-- 顶部搜索区 -->
+        <div class="sou">
+            <div class="souw">
+                <input type="text" name="" id="" placeholder="请输入对方QQ号" class="inpu">
+                <div class="ls">
+                    <li class="ls-list ls-list-wx ls-list-yx" uid="qq">
+                        <i class="iconfont icon-qq lstb"></i>
+                        <!--   <p></p>
+                        <i class="iconfont icon-xuanze_xuanzhong"></i> -->
+                    </li>
+                    <li class="ls-list ls-list-wx" uid="wx">
+                        <i class="iconfont icon-weixin lstb"></i>
+                        <!-- <p></p>
+                        <i class="iconfont icon-xuanze_xuanzhong-copy"></i> -->
+                    </li>
+                    <li class="ls-list ls-list-wx" uid="ipone">
+                        <i class="iconfont icon-dianhua lstb"></i>
+                        <!--   <p></p>
+                        <i class="iconfont icon-xuanze_xuanzhong-copy"></i> -->
+                    </li>
+                </div>
+                <button class="but">搜 索</button>
+            </div>
+        </div>
+        <!-- 底部举报记录 -->
+        <ul class="jl"></ul>
+        <div class="bot">
+            <p class="jzgs">加载更多</p>
+        </div>
+        <p class="ddl">————— 我是有底线的 —————</p>
+    </div>
+
+    <!-- 加载数据弹窗 -->
+    <div class="jztc">
+        <div class="jztc-n">
+            <img src="../lib/image/lo.gif" alt="">
+        </div>
+    </div>
+
+    <!-- 提示添加微信公众号弹窗 -->
+    <div class="wxgzh">
+        <div class="wxgzh-n">
+            <p class="wxgzh-nr">该网站还处于无主状态 无法使用哦</p>
+            <div class="wxgzh-bot">
+                <button class="wxgzh-but tytc-gb">关闭提示</button>
+                <button class="wxgzh-but tytc-herf">滴血认主</button>
+            </div>
+        </div>
+    </div>
+
+    <p class="bq">版权© 2022 <a href="#" style="color: rgb(17, 120, 255);" class="conpy">须豆工作室</a> 所有<br><a href="https://beian.miit.gov.cn/#/Integrated/index" style="color: rgb(17, 120, 255);" class="beian">赣ICP备2021010719号-1</a></p>
+    <script type="text/html" id="list">    <!-- 举报记录列表模板 -->
+        {{each}}
+    <li class="jl-list" uid="{{$value.id}}">
+        <div class="list-i">
+            <img src="{{$value.toux}}" alt="" class="list-t">
+        </div>
+        <div class="list-x">
+            <div class="hm-w">
+                <!-- <p class="hm"><span>QQ昵称</span>：<span>{{$value.qq}}</span></p> -->
+                <p class="hm"><span>QQ号</span>：<span>{{$value.qq}}</span></p>
+                <p class="hm"><span>微信号</span>：<span>{{$value.wx}}</span></p>
+            </div>
+            <p class="rq"><span>存档日期</span>：<span>{{$value.jbtime}}</span></p>
+        </div>
+        <img src="../lib/image/{{$value.zt}}.png" alt="" class="list-bq">
+        <img src="../lib/image/list-s.png" alt="" class="list-bq">
+    </li>
+    {{/each}}
+    </script>
+    <script>
+        $('.tytc-gb').on('click', function () {
+            $('.wxgzh').hide();
+        });
+        $('.tytc-herf').on('click', function () {
+            parent.location.href = 'https://110.xudounet.com/anyshou/';
+        });
+    </script>
+    <script src="../lib/js/any_title.js"></script>
+    <script src="../lib/js/home.js"></script>
+    <!--     <script src="../lib/js/tytc.js"></script> -->
+</body>
+
+</html>

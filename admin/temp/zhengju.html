@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小豆信誉 - 证据回看</title>
+    <link rel="stylesheet" href="/lib/css/re.css">
+    <script src="/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_zf1q6xqesl.css">
+    <link rel="stylesheet" href="/lib/css/ty.css">
+    <script src="/lib/js/shu.js"></script>
+    <link rel="stylesheet" href="/lib/css/admin_sheng.css">
+    <script src="/lib/js/user.js"></script>
+    <script src="/lib/js/art.js"></script>
+    <script src="/lib/js/user.js"></script>
+</head>
+
+<body>
+    <div class="q">
+        <ul class="q-ul">
+            <div class="x">
+                <div class="yyd">
+                    <div class="top">
+                        <div class="top-n">
+                            <img src="/lib/image/tx.png" alt="" class="top-tx">
+                            <p>证据回看</p>
+                        </div>
+                        <div class="top-fgx-w">
+                            <div class="fgx">---------------------------------------------------------------</div>
+                        </div>
+                    </div>
+                    <div class="k">
+                        <div class="but-n">
+                            <ul class="k-ul">
+                                <!-- 信息列表 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xxjs">
+                    <p class="xjs-sp"></p>
+                </div>
+                <div class="zjjt">
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div class="jztc">
+        <div class="jztc-n">
+            <img src="/lib/image/lo.gif" alt="">
+        </div>
+    </div>
+    <div class="zj-da-img">
+        <img src="/lib/image/xxbq.png" alt="" class="zj-img-da">
+        <div class="da-img-x">
+            <i class="iconfont icon-cuowu da-img-x-i"></i>
+        </div>
+    </div>
+
+    <script type="text/html" id="list-m">
+        <li class="list qq">
+            <span class="list-a"><i class="iconfont icon-qq list-icon"></i>此人QQ </span><span
+                class="list-b">{{qq}}</span>
+            <p class="list-g"></p>
+        </li>
+        <li class="list wx">
+            <span class="list-a"><i class="iconfont icon-weixin list-icon"></i>此人微信 </span><span
+                class="list-b">{{wx}}</span>
+            <p class="list-g"></p>
+        </li>
+        <li class="list ipone">
+            <span class="list-a"><i class="iconfont icon-dianhua list-icon"></i>此人电话
+            </span><span class="list-b">{{ipone}}</span>
+            <p class="list-g"></p>
+        </li>
+        <div class="fgx">---------------------------------------------------------------</div>
+        <li class="list xydj">
+            <span class="list-a"><i class="iconfont icon-dengji list-icon"></i>诈骗金额 </span><span
+                class="list-b">{{money}}元</span>
+            <p class="list-g"></p>
+        </li>
+        <li class="list xydj">
+            <span class="list-a"><i class="iconfont icon-dengji list-icon"></i>诈骗类型 </span><span
+                class="list-b">{{zplx}}</span>
+            <p class="list-g"></p>
+        </li>
+    </script>
+
+    <script type="text/html" id="imglisy">
+        {{each}}
+        <li class="img-li">
+            <img src="{{$value}}" alt="" class="zj-img">
+        </li>
+        {{/each}}
+    </script>
+
+    <script src="/lib/js/admin_zhengju.js"></script>
+</body>
+
+</html>

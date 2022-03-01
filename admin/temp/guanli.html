@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/lib/css/re.css">
+    <script src="/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_zf1q6xqesl.css">
+    <link rel="stylesheet" href="/lib/css/ty.css">
+    <script src="/lib/js/shu.js"></script>
+    <script src="/lib/js/user.js"></script>
+    <script src="/lib/js/art.js"></script>
+    <script src="/lib/js/user.js"></script>
+    <link rel="stylesheet" href="/lib/css/admin_guanli.css">
+</head>
+
+<body>
+    <div class="q">
+        <div class="n">
+            <ul class="guan-list">
+
+            </ul>
+            <div class="bot">
+                <p class="jzgs">加载更多</p>
+            </div>
+            <p class="ddl">————— 我是有底线的 —————</p>
+        </div>
+
+    </div>
+    <div class="jztc">
+        <div class="jztc-n">
+            <img src="/lib/image/lo.gif" alt="">
+        </div>
+    </div>
+    <script type="text/html" id="list">    <!-- 举报记录列表模板 -->
+        {{each}}
+    <li class="jl-list" uid="{{$value.id}}">
+        <div class="list-i">
+            <img src="{{$value.toux}}" alt="" class="list-t">
+        </div>
+        <div class="list-x">
+            <div class="hm-w">
+                <!-- <p class="hm"><span>QQ昵称</span>：<span>{{$value.qq}}</span></p> -->
+                <p class="hm"><span>QQ号</span>：<span>{{$value.qq}}</span></p>
+                <p class="hm"><span>微信号</span>：<span>{{$value.wx}}</span></p>
+            </div>
+        </div>
+        <img src="/lib/image/{{$value.zt}}.png" alt="" class="list-bq">
+        <img src="/lib/image/list-s.png" alt="" class="list-bq">
+        <div class="list-but">
+            <button class="button-list list-zj" uid={{$value.wordl}}>证据</button>
+            <button class="button-list list-delete">删除</button>
+        </div>
+    </li>
+    {{/each}}
+    </script>
+    <script src="/lib/js/admin_guanli.js"></script>
+    <script>
+        
+
+    </script>
+</body>
+
+</html>

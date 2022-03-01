@@ -1,0 +1,31 @@
+.dlbox .weixin,
+.dlbox .weibo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
+.dlbox .weixin {
+    background-image: url(images/weixin.png);
+}
+
+.dlbox .weibo {
+    background-image: url(images/weibo.png);
+}
+
+.bg-indigo-100 {
+    background-color: #ebf4ff;
+}
+
+.border-gray-200 {
+    border-color: #edf2f7;
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.bg-indigo-500 {
+    background-color: #667eea;
+}

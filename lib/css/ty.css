@@ -1,0 +1,133 @@
+.jztc{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100000;
+    overflow: hidden;
+}
+.wxgzh{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.13);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 100000;
+    overflow: hidden;
+}
+.jztc-n{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+    margin: 200px auto;
+    overflow: hidden;
+}
+.wxgzh-n{
+    width: 80%;
+/*     height: 120px; */
+    border-radius: 5px;
+    background: white;
+    margin: 200px auto;
+    overflow: hidden;
+/*     padding: 10px; */
+    position: relative;
+}
+.wxgzh-nr{
+/*     height: 50px; */
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+/*     font-weight: 700; */
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.wxgzh-bot{
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    height: 44px;
+}
+.wxgzh-but{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 0.5px solid rgb(250, 250, 250);
+    font-size: 14px;
+    font-weight: 700;
+}
+.jztc-n img{width: 120px;height: 100px;margin-left: -10px;}
+.bq{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 60px;
+}
+body{
+    position: relative;
+}
+.cbl{
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    z-index: 10000;
+}
+.cb-list{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(118, 166, 255);
+    margin: 5px;
+    background-color: rgb(93, 109, 255);
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+.cb-list a{
+    color: rgb(255, 255, 255);
+    font-family: 600;
+    margin: 5px auto;
+    display: block;
+}
+.bot-na{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 11;
+    background-color: white;
+}
+.bot-nav{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.bot-nav-list{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  /*   padding-top: 10px; */
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+}
+.bot-nav-list{
+    line-height: 20px;
+    margin-top: 7px;
+    font-size: 10px;
+}
+.bot-list-i{
+    font-size: 25px!important;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/lib/css/re.css">
+    <script src="/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_ifhmsowbvyq.css">
+    <link rel="stylesheet" href="/lib/css/ty.css">
+    <script src="/lib/js/shu.js"></script>
+    <link rel="stylesheet" href="/lib/css/admin_youlian.css">
+    <script src="/lib/js/user.js"></script>
+    <script src="/lib/js/art.js"></script>
+    <script src="/lib/js/user.js"></script>
+</head>
+
+<body>
+    <div class="yq">
+        <!--  <p class="wxts">温馨提示:本栏目所以商家非本平台官方，建议优先选择押金较高的商家</p> -->
+        <ul class="you-ul">
+          <!--   <li class="you-list">
+
+                <div class="list-top">
+                    <img src="{{$value.img}}" alt="">
+                </div>
+                <div class="but-list">
+                    <button class="list-but list-delete" uid="{{$index}}">删除</button>
+                    <button class="list-but list-post" uid="{{$index}}">修改</button>
+                </div>
+            </li> -->
+        </ul>
+        <li class="new-list">
+            <div class="tianjia">
+                <i class="iconfont icon-jia"></i>
+            </div>
+        </li>
+        
+    </div>
+    <div class="post-xiugai">
+        <ul class="ul">
+            <div class="tyk">
+
+                <p class="title-p"></p>
+                <div class="ttgd">
+                    <p class="title-e">修改信息</p>
+                    <li class="list">
+                        <div class="list-i-s">
+                            <i class="iconfont icon-tupian list-i"></i>
+                        </div>
+                        <input type="text" placeholder="请输入广告图链接" class="li-inp li-imgurl">
+                        <span class="list-title">广告图链接</span>
+                    </li>
+                    <li class="list">
+                        <div class="list-i-s">
+                            <i class="iconfont icon-lianjie list-i"></i>
+                        </div>
+                        <input type="text" placeholder="请输入跳转链接" class="li-inp li-urlurl">
+                        <span class="list-title">跳转链接</span>
+                    </li>
+                    <li class="list">
+                        <div class="list-i-s">
+                            <i class="iconfont icon-comment_wodepinglun list-i"></i>
+                        </div>
+                        <input type="text" placeholder="底部简介" class="li-inp li-youjs">
+                        <span class="list-title">底部简介</span>
+                    </li>
+                    <li class="list">
+                        <div class="zhapianlist">
+                            <div class="list-i-s">
+                                <i class="iconfont icon-icon-yajinguanli list-i"></i>
+                            </div>
+                            <span class="zhapianjine">商家押金</span>
+                        </div>
+                        <input type="text" placeholder="0.00" class="li-inp li-shangyj li-inp-ty"><span
+                            class="zhapianjine">元</span>
+                    </li>
+                    <div class="but-d">
+                        <button class="but but-false" style="background-color: rgb(100, 100, 100);">再想想吧</button>
+                        <button class="but but-true" uid="" lx="">确认提交</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </ul>
+    </div>
+    <div class="jztc">
+        <div class="jztc-n">
+            <img src="/lib/image/lo.gif" alt="">
+        </div>
+    </div>
+    <script src="/lib/js/admin_youlian.js"></script>
+    <script type="text/html" id="you-list">
+        {{each}}
+        <li class="you-list">
+            <div class="list-top">
+                <img src="{{$value.img}}" alt="">
+            </div>
+            <div class="but-list">
+                <button class="list-but list-delete" uid="{{$index}}">删除</button>
+                <button class="list-but list-post" uid="{{$index}}">修改</button>
+            </div>
+        </li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

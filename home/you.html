@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>友情链接 - 小豆信誉 - 小程序</title>
+    <link rel="stylesheet" href="../lib/css/you.css">
+    <link rel="stylesheet" href="../lib/css/re.css">
+    <link rel="stylesheet" href="../lib/css/ty.css">
+    <script src="../lib/js/jquery.min.js"></script>
+    <script src="../lib/js/art.js"></script>
+    
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_ijlhqcxcov.css">
+    <meta name="kerwords" content="举报骗子,跑路狗,举报,诈骗,信誉查询">
+    <meta name="description" content="民间组建的查询和举报平台，无论你被骗了多了都可以直接举报，害怕遇到骗子可以到这里查一查">
+</head>
+
+<body>
+    <div class="yq">
+        <p class="wxts">温馨提示:本栏目所以商家非本平台官方，建议优先选择押金较高的商家</p>
+        <ul class="you-ul">
+            
+        </ul>
+    </div>
+
+    <script src="../lib/js/shu.js"></script>
+    <script src="../lib/js/you.js"></script>
+    <script type="text/html" id="you-list">
+        {{each}}
+        <li class="you-list">
+            <a href="{{$value.url}}" class="you-a" target='_blank'>
+                <div class="list-top">
+                    <img src="{{$value.img}}" alt="">
+                </div>
+                <div class="list-bot">
+                    <p>{{$value.title}}</p>
+                </div>
+            </a>
+            <div class="list-bb">
+                <p>已交押金:{{$value.deposit}}元</p>
+            </div>
+        </li>
+        {{/each}}
+    </script>
+</body>
+
+</html>

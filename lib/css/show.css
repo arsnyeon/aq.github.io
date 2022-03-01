@@ -1,0 +1,170 @@
+.q{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgb(218, 218, 218);
+    color: black;
+    /* box-shadow: 2px 2px 5px rgb(223, 223, 223); */
+}
+.sou{
+    width: 100%;
+/*     height: 350px; */
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(241, 241, 241);
+    background:url(/lib/image/sou.png);
+    background-size: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.souw{
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    background:rgba(255, 255, 255, 0);
+}
+.inpu{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 3px rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    margin: 0 10%;
+    text-align: center;
+    
+}
+.but{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 133, 52);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px auto;
+    display: block;
+    box-shadow: 2px 2px 5px rgb(255, 218, 188);
+}
+.jl{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.jl-list{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgb(241, 241, 241);
+    margin-bottom: 9px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.list-i{
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+.list-t{
+    border-radius: 150px;
+    width: 35px;
+    height: 35px;
+    background: rgb(124, 170, 255);
+    text-align: center;
+    display: inline-block;
+}
+.list-bq{
+    width: 90px;
+   /*  height: 90px; */
+    position: absolute;
+    top: 5;
+    right: 0;
+    z-index: 10;
+}
+.list-x{
+    width: 100%;
+    height: 100%;
+}
+.hm-w{
+    margin-top: 19px;
+}
+.hm{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    /* text-align: center; */
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    /* font-weight: 600; */
+    text-shadow: 2px 2px 5px rgb(201, 201, 201);
+    /* margin-top: 30px; */
+}
+.rq{
+    /* background: rgb(224, 224, 224); */
+    border-radius: 5px;
+    width: 200px;
+    color: rgb(58, 58, 58);
+    font-size: 13px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bot{
+    width: 100%;
+    height: 35px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 4px 10px rgb(241, 241, 241);
+    border-radius: 10px;
+    
+}
+.ddl{
+    font-size: 12px;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.ls{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.ls-list{
+    width: 50px;
+    height: 50px;
+    /* padding-top: 10px; */
+    overflow: hidden;
+    background-color: white;
+    border-radius: 9px;
+    margin: 5px;
+    line-height: 50px;
+}
+.ls-list-wx{
+    box-shadow: 2px 2px 5px rgb(218, 218, 218);
+}
+.ls-list-yx{
+    box-shadow: 2px 2px 5px rgb(95, 151, 255);
+}
+.lstb{
+    font-size: 25px!important;
+}
+

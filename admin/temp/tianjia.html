@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/lib/css/re.css">
+    <script src="/lib/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3118284_zf1q6xqesl.css">
+    <link rel="stylesheet" href="/lib/css/ty.css">
+    <script src="/lib/js/shu.js"></script>
+    <link rel="stylesheet" href="/lib/css/admin_tianjia.css">
+    <script src="/lib/js/user.js"></script>
+    <script src="/lib/js/art.js"></script>
+    <script src="/lib/js/user.js"></script>
+</head>
+
+<body>
+    <div class="q">
+        <li class="tj-list" url="./tianjia/tianjia_zp.html">
+            <div class="left">
+                <p class="title-p">手动添加确认诈骗人员信息</p>
+                <p class="title-s">添加诈骗人员</p>
+            </div>
+            <div class="reg">
+                <div class="box">
+                    <i class="iconfont icon-about_guanyu"></i>
+                </div>
+            </div>
+        </li>
+        <li class="tj-list" url="./tianjia/tianjia_ys.html">
+            <div class="left">
+                <p class="title-p">手动添加疑似诈骗人员信息</p>
+                <p class="title-s">添加疑似诈骗</p>
+            </div>
+            <div class="reg">
+                <div class="box">
+                    <i class="iconfont icon-integration_jifen"></i>
+                </div>
+            </div>
+        </li>
+        <li class="tj-list" url="./tianjia/tianjia_aq.html">
+            <div class="left">
+                <p class="title-p">手动添加安全认证人员信息</p>
+                <p class="title-s">添加安全认证</p>
+            </div>
+            <div class="reg">
+                <div class="box">
+                    <i class="iconfont icon-safety_anquan"></i>
+                </div>
+            </div>
+        </li>
+    </div>
+
+    <script>
+        $('.tj-list').on('click',function(){
+            location.href = $(this).attr('url');
+        })
+    </script>
+</body>
+
+</html>

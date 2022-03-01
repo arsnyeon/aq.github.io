@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>骗子举报平台 - 无金额限制举报</title>
+    <meta name="kerwords" content="举报骗子,跑路狗,举报,诈骗,信誉查询">
+    <meta name="description" content="民间组建的查询和举报平台，无论你被骗了多了都可以直接举报，害怕遇到骗子可以到这里查一查">
+    <style>
+        .q{
+            width: 100%;
+            height: 100%;
+           /*  padding: 20px; */
+        }
+        p{
+            width: 100%;
+          /*   height: 30px; */
+            text-align: center;
+            line-height: 30px;
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+        button{
+            width: 100px;
+            height: 35px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(66, 101, 255);
+            box-shadow: 2px 2px 5px rgb(79, 126, 255);
+            display: block;
+            margin: 10px auto;
+            color: white;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="q">
+        <p>
+            请关注微信小程序《小豆信誉》查询举报骗子<br><br>
+            提示：2秒后自动跳转微信小程序
+        </p>
+        <button class="but">前往小程序</button>
+    </div>
+    <script>
+        setTimeout(function(){
+            window.location.href = 'weixin://dl/business/?t=2veFqbhNNOp';
+        },1000)
+        document.querySelector('.but').addEventListener('click',function(){
+            window.location.href = 'weixin://dl/business/?t=2veFqbhNNOp';
+        })
+    </script>
+</body>
+</html>
